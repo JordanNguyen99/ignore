@@ -1,7 +1,2 @@
 node_modules/
-# User-specific files - Ignore all files ending in ".env"
-*.env
-# z auto generated files - Ignore all files starting with "mono_crash."
-z.*
-# Removing the slash would ignore "artifacts" directories at all depths 
-/artifacts
+ .env, /artifacts/, z*
